@@ -25,3 +25,9 @@ This is a public repository for compiler-vis project. Since the compiler-vis pro
 ### LoopFinding
 * For loopfinding, the current requirement is that the CFG should have exactly one source node (i.e. the node with no incoming edges and one or more outgoing edges).
 
+### Trace Syntax
+The full syntax of execution ASCII trace can be found here. 
+
+https://github.com/stephensj2/ScienceUpToPar/wiki/Verbose-ASCII-Trace-Format
+
+
