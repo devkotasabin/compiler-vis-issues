@@ -21,6 +21,7 @@ This is a public repository for compiler-vis project. Since the compiler-vis pro
 
 ### BackTainting
 * The backtainting feature requires the trace.
+* The only thing it relies on is the operand values given last. It looks for the R:, W:, MR, and MR strings to identify these operands. As a result, these need to be in the same format, and need to list all affects that particular function has.
 
 ### LoopFinding
 * For loopfinding, the current requirement is that the CFG should have exactly one source node (i.e. the node with no incoming edges and one or more outgoing edges).
